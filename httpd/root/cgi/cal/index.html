@@ -1,0 +1,32 @@
+<html>
+<body>
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+<form action="/cgi/cal/add" METHOD="GET">
+    <h2>计算几天后的日期：</h2>
+    日期:
+    <input type="text" name="year" size=8 value="2018" >年
+    <input type="text" name="month" size=4 value="1">月
+    <input type="text" name="day" size=4 value="1">日
+    <br>
+    往后:
+    <input type="text" name="count" size=4 value="100">天(输入负数往前计算)
+    <br><br>
+    <input type="submit" value="计算">
+</form>
+<form action="/cgi/cal/sub" METHOD="GET">
+    <h2>计算日期差：</h2>
+    <input type="text" name="year1" size=8 value="2018" >年
+    <input type="text" name="month1" size=4 value="1">月
+    <input type="text" name="day1" size=4 value="1">日
+    <br>
+    和
+    <br>
+    <input type="text" name="year2" size=8 value="2019">年
+    <input type="text" name="month2" size=4 value="1">月
+    <input type="text" name="day2" size=4 value="1">日
+    <br><br>
+    <input type="submit" value="相差几天">
+</form>
+</body>
+</html>
+
